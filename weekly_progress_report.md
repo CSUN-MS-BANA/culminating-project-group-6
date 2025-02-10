@@ -1,5 +1,6 @@
 **Master's in Business Analytics – Culminating Project**
 **Group Name:** Group-6
+**Week of:** Week-2
 
 ## 1. Group Lead for the Week
 📌 **Lead Member Name:** Sajid Khan Hyder
