@@ -1,0 +1,67 @@
+Entity-Relationship Diagram (ERD) Description
+Entities and Their Attributes:
+
+1. Country 
+Attributes:
+Country_ID (Primary Key) → Unique identifier for each country.
+Country_Name → The name of the country.
+
+2. Economic Indicators 
+
+Attributes:
+Series_ID (Primary Key) → Unique identifier for an economic indicator.
+Year → The year in which the data was recorded.
+Series_Name → The name of the economic indicator.
+Value → The recorded value of the economic indicator.
+Country_Country_ID (Foreign Key) → References Country_ID in the Country table.
+
+Relationship:
+Country (1) → (M) Economic Indicators
+
+3. Social Indicators
+
+Attributes:
+Series_ID (Primary Key) → Unique identifier for a social indicator.
+Year → The year in which the data was recorded.
+Series_Name → The name of the social indicator.
+Value → The recorded value of the social indicator.
+Country_Country_ID (Foreign Key) → References Country_ID in the Country table.
+
+Relationship:
+Country (1) → (M) Social Indicators
+
+4. Public Debt Indicators
+
+Attributes:
+Series_ID (Primary Key) → Unique identifier for a public debt-related indicator.
+Year → The year in which the data was recorded.
+Series_Name → The name of the public debt indicator.
+Value → The recorded value of the public debt indicator.
+Country_Country_ID (Foreign Key) → References Country_ID in the Country table.
+
+Relationship:
+Country (1) → (M) Public Debt Indicators
+
+5. Environmental Indicators
+
+Attributes:
+Series_ID (Primary Key) → Unique identifier for an environmental indicator.
+Year → The year in which the data was recorded.
+Series_Name → The name of the environmental indicator.
+Value → The recorded value of the environmental indicator.
+Country_Country_ID (Foreign Key) → References Country_ID in the Country table.
+
+Relationship:
+Country (1) → (M) Environmental Indicators
+
+6. Statistical Indicators
+
+Attributes:
+Series_ID (Primary Key) → Unique identifier for a statistical indicator.
+Year → The year in which the data was recorded.
+Series_Name → The name of the statistical indicator.
+Value → The recorded value of the statistical indicator.
+Country_Country_ID (Foreign Key) → References Country_ID in the Country table.
+
+Relationship:
+Country (1) → (M) Statistical Indicators
