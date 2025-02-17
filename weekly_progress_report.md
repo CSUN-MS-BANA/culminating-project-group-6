@@ -4,7 +4,7 @@
 
 ## 1. Group Lead for the Week
 📌 **Lead Member Name:** Sajid Khan Hyder
-   
+
 ---
 
 ## 2. Individual Contributions
