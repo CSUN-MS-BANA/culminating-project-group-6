@@ -5,6 +5,21 @@ CREATE TABLE Country (
     country_name TEXT NOT NULL
 );
 
+ECONOMIC INDICATORS TABLE
+CREATE TABLE Economic (
+    Series_ID TEXT,
+    Year INTEGER,
+    GDP TEXT,
+    Inflation_Rate TEXT,
+    Trade_Balance TEXT,
+    Foreign_Direct_Investment TEXT,
+    Government_Spending TEXT,
+    Country_Country_ID TEXT,
+    PRIMARY KEY (Series_ID, Year, Country_Country_ID),
+    FOREIGN KEY (Country_Country_ID) REFERENCES Country(Country_ID)
+);
+
+
 PUBLIC DEBT INDICATORS TABLE
 CREATE TABLE Public_Debt_Indicators (
     series_code INTEGER,
