@@ -2,6 +2,7 @@ Entity-Relationship Diagram (ERD) Description
 Entities and Their Attributes:
 
 1. Country 
+
 Attributes:
 Country_ID (Primary Key) → Unique identifier for each country.
 Country_Name → The name of the country.
