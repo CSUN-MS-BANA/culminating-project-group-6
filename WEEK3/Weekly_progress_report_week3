@@ -1,0 +1,41 @@
+**Master's in Business Analytics – Culminating Project**
+**Group Name:** Group-6
+**Week of:** Week-3
+
+## 1. Group Lead for the Week
+📌 **Lead Member Name:** Masthani Sai Sharanya Tiruveedhi
+
+---
+
+## 2. Individual Contributions
+| Student Name                        | Time Spent (hrs) | Tasks Completed                                                                 | Challenges Faced                                                   |
+|-------------------------------------|------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Sajid Khan Hyder                    | 8                | Worked on Quarterly Public Sector Debt Database to identify key attributes, ERD, SQL Scripts| Problems in structuring the ERD and understanding key attributes|
+| Masthani Sai Sharanya Tiruveedhi    | 8                | Worked on ERD, ERD description, identifying key attributes, and SQL scripts   | Structuring the ERD, identifying key attributes                                           |
+| Ruchira Kanawade                    | 8                | Identified attributes from WDI database, ERD, SQL                             | ERD structuring, identifying key attributes and relations                                                   |
+| Rahul Talreja                       | 8                | Chose indicators from WDI, Research questions based on WDI, ERD               | ERD structuring and identifying the keys and relations                                                |
+
+---
+
+## 3. Key Achievements for the Week
+📌 Worked on given datasets to identify entities and their key attributes
+📌 Structured an ERD accordingly.
+📌 SQL scripts to create tables.
+   
+---
+
+## 4. Pending Tasks for Next Week
+📌 Completed this week's tasks
+   
+---
+
+## 5. GitHub Submission Details
+🔗 **GitHub Repository Link:** https://github.com/CSUN-MS-BANA/culminating-project-group-6.git
+📁 **Files Updated/Added:**
+- SQL_Queries
+- ERD.png
+- ERD_Description.pdf   
+- Frustration Reports
+   
+---
+
