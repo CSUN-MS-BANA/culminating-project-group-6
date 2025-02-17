@@ -9,13 +9,10 @@ ECONOMIC INDICATORS TABLE
 CREATE TABLE Economic (
     Series_ID TEXT,
     Year INTEGER,
-    GDP TEXT,
-    Inflation_Rate TEXT,
-    Trade_Balance TEXT,
-    Foreign_Direct_Investment TEXT,
-    Government_Spending TEXT,
+    Series_Name TEXT,
+    Value INTEGER,
     Country_Country_ID TEXT,
-    PRIMARY KEY (Series_ID, Year, Country_Country_ID),
+    PRIMARY KEY (Series_ID, Year),
     FOREIGN KEY (Country_Country_ID) REFERENCES Country(Country_ID)
 );
 
@@ -38,7 +35,6 @@ CREATE TABLE Social_Indicators (
     Series_Code TEXT NOT NULL,               -- Unique identifier for each indicator (Primary Key)
     Year INTEGER NOT NULL,                   -- Year (e.g., 2021, 2022, 2023) (Primary Key)
     Country_Code TEXT NOT NULL,              -- Foreign key referencing the Countries table
-    Country_Name TEXT NOT NULL,              -- Name of the country
     Series_Name TEXT NOT NULL,               -- Description of the indicator
     Value REAL,                              -- Corresponding numerical value for that year
     PRIMARY KEY (Series_Code, Year),         -- Composite Primary Key (Unique per indicator & year)
@@ -47,12 +43,11 @@ CREATE TABLE Social_Indicators (
 
 --Environmental indicator Table--
 CREATE TABLE Environmental_Indicators (
-    country_name VARCHAR(100) NOT NULL,       -- Name of the country
     country_code VARCHAR(10) NOT NULL,        -- Foreign key referencing the Countries table
     series_name VARCHAR(255) NOT NULL,        -- Description of the indicator
     series_code VARCHAR(50) NOT NULL,         -- Unique identifier for each indicator (Primary Key)
     year INT NOT NULL,                        -- Year (Primary Key)
-    value DECIMAL(15,6),
+    value DECIMAL,
     PRIMARY KEY (series_code, year)
     FOREIGN KEY (Country_Code) REFERENCES Country(Country_Code)
 );
