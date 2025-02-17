@@ -29,3 +29,14 @@ CREATE TABLE Social_Indicators (
     PRIMARY KEY (Series_Code, Year),         -- Composite Primary Key (Unique per indicator & year)
     FOREIGN KEY (Country_Code) REFERENCES Countries(Country_Code) -- Referential Integrity
 );
+
+--Environmental indicator Table--
+CREATE TABLE Environmental_Indicators (
+    country_name VARCHAR(100) NOT NULL,       -- Name of the country
+    country_code VARCHAR(10) NOT NULL,        -- Foreign key referencing the Countries table
+    series_name VARCHAR(255) NOT NULL,        -- Description of the indicator
+    series_code VARCHAR(50) NOT NULL,         -- Unique identifier for each indicator (Primary Key)
+    year INT NOT NULL,                        -- Year (Primary Key)
+    value DECIMAL(15,6),
+    PRIMARY KEY (series_code, year, country_code)
+);
