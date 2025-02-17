@@ -30,7 +30,7 @@ CREATE TABLE Public_Debt_Indicators (
     interest_payments_on_debt REAL,
     external_debt_stocks REAL,
     PRIMARY KEY (series_code, year),
-    FOREIGN KEY (country_code) REFERENCES Countries(country_code)
+    FOREIGN KEY (country_code) REFERENCES Country(country_code)
 );
 
 --SOCIAL INDICATORS TABLE--
@@ -42,7 +42,7 @@ CREATE TABLE Social_Indicators (
     Series_Name TEXT NOT NULL,               -- Description of the indicator
     Value REAL,                              -- Corresponding numerical value for that year
     PRIMARY KEY (Series_Code, Year),         -- Composite Primary Key (Unique per indicator & year)
-    FOREIGN KEY (Country_Code) REFERENCES Countries(Country_Code) -- Referential Integrity
+    FOREIGN KEY (Country_Code) REFERENCES Country(Country_Code) -- Referential Integrity
 );
 
 --Environmental indicator Table--
@@ -53,5 +53,6 @@ CREATE TABLE Environmental_Indicators (
     series_code VARCHAR(50) NOT NULL,         -- Unique identifier for each indicator (Primary Key)
     year INT NOT NULL,                        -- Year (Primary Key)
     value DECIMAL(15,6),
-    PRIMARY KEY (series_code, year, country_code)
+    PRIMARY KEY (series_code, year)
+    FOREIGN KEY (Country_Code) REFERENCES Country(Country_Code)
 );
