@@ -10,7 +10,7 @@
 ## 2. Individual Contributions
 | Student Name                        | Time Spent (hrs) | Tasks Completed                                                                 | Challenges Faced                                                   |
 |-------------------------------------|------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Sajid Khan Hyder                    | 9                 |Expanded the Indicators List and performed Data preprocessing | ............................................................................................|
+| Sajid Khan Hyder                    | 9                |Expanded the Indicators List and performed Data preprocessing | ............................................................................................|
 | Masthani Sai Sharanya Tiruveedhi    | 9                |added more indicators for economical and statistical tables. Combined all 5 files into one database and did preprocessing. |combining the files, formatting and cleaning|
 | Ruchira Kanawade                    | 9                |Added indicators to Environmental tables,All five data sets were combined, the data was cleansed, and ".." was changed to "none" &Fixing data format in one table that had years in quarterly format.| had issues standardizing columns and handling missing values.|
 | Rahul Talreja                       | 9                |changed the numerical data to categorical, added extra indications to the list, handled missing values, and combined all files into a single dataset.|Challenges in transforming a table with quarterly time into an annual & Handelling Missing values|
