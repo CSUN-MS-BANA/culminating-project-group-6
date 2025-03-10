@@ -5,6 +5,10 @@ A. Time Series Analysis
 	4. How do short-term and long-term public debt levels fluctuate over the years?
         5. How do seasonal patterns in trade balances impact GDP growth across different regions?
         6. Can time series models forecast inflation rates more accurately by incorporating fiscal policy changes?
+	7. How have total CO2 emissions (excluding LULUCF) changed over time across different regions?
+	8. Can historical data on CO2 emissions from the power industry be used to forecast future emissions trends?
+	9. How has the share of renewable energy consumption evolved over time, and what impact does it have on CO2 emissions reduction?
+	10.How do seasonal variations in energy-related CO2 emissions affect overall carbon intensity trends?
 
 
 
@@ -15,6 +19,10 @@ B. Hypothesis Testing
 	4. Is there a significant difference in domestic and external debt levels between high-income and low-income countries? (T-Test)
 	5. Is there a significant difference in GDP growth between countries with high and low external debt? (T-Test)
         6. Do countries with higher social spending exhibit better economic stability? (F-Test)
+	7. Is there a significant difference in carbon intensity of GDP between countries with high and low renewable energy consumption? (T-Test)
+	8. Do countries with higher forest area percentages exhibit significantly lower total CO2 emissions per capita? (T-Test)
+	9. Is there a significant association between urban vs. rural access to electricity and a country's CO2 emissions per capita? (Chi-Square Test)
+	10.Do countries with higher CO2 emissions from transport have significantly different per capita emissions than those with lower transport emissions? (T-Test)
 
 C. Multiple Linear Regression (MLR) 
 	1. How do inflation rate, trade balance, and public debt impact GDP per capita growth?
@@ -23,6 +31,10 @@ C. Multiple Linear Regression (MLR)
 	4. Does a country’s GDP affect public debt levels?
         5. How do debt servicing costs and exchange rates influence investment inflows?
         6. What is the combined effect of healthcare expenditure, education spending, and income inequality on life expectancy across different income-level countries?
+	7. How do energy consumption, industrial emissions, and transport emissions impact a country’s total CO2 emissions per capita?
+	8. What are the key predictors of total CO2 emissions, including factors such as deforestation, industrial combustion, and fugitive emissions?
+	9. How does carbon intensity of GDP depend on CO2 emissions from different sectors (agriculture, buildings, industry, transport)?
+	10. How do forest area changes, energy consumption, and waste emissions contribute to variations in total CO2 emissions?
 
 D. Classification 
 	1. Can we classify countries into high-growth vs. low-growth economies based on GDP trends? (Logistic Regression)
@@ -31,6 +43,11 @@ D. Classification
 	4. Can countries be classified into low, moderate and high-risk economies based on their debt?
         5. Can machine learning models classify countries into resilient vs. vulnerable categories during financial crises based on debt and fiscal metrics? (Support Vector Machine)
         6. Can we predict which countries are likely to experience a sovereign default based on a combination of political stability, trade balance, and debt-to-GDP ratio? (Random Forest)
+	7. Can we classify countries into high-emission vs. low-emission groups based on CO2 emissions, renewable energy share, and deforestation rates? (Logistic Regression)
+	8. Which countries are likely to experience high carbon intensity of GDP based on their energy-related CO2 emissions? (Random Forest)
+	9. Can CO2 emissions data be used to classify countries into developed, emerging, and developing economies based on industrial and energy sector emissions? (Decision Tree)
+	10. Can we predict whether a country’s forest area percentage is above or below a critical threshold based on its carbon flux from LULUCF? (KNN)
+	11. Can countries be classified into low-risk, moderate-risk, and high-risk categories based on CO2 emissions trends and energy consumption patterns? (Support Vector Machine)
 
 E. Clustering
 	1. Are there distinct clusters of countries based on economic growth, public debt levels, and trade balance? (K-Means Clustering)
@@ -40,6 +57,11 @@ E. Clustering
 	5. Are there regional patterns in debt levels?
         6. Can clustering identify patterns in fiscal behavior and debt sustainability among low-income countries? (DBSCAN Clustering)
         7. Can clustering identify groups of countries with similar responses to global financial shocks based on quarterly debt and trade data? (Hierarchical Clustering)
+	8. Are there distinct clusters of countries based on carbon intensity of GDP, CO2 emissions from various sectors, and renewable energy usage? (K-Means Clustering)
+	9. Can clustering methods identify patterns in CO2 emissions and energy use across different regions?
+	10. How do developed and developing countries cluster based on carbon emissions and forest area coverage?
+	11. Do countries with similarities in industrial and transport emissions form distinct groups?
+	12. Can clustering methods identify regional patterns in energy-related CO2 emissions?
 
 F. Neural Networks
 	1. Can we predict GDP growth based on debt levels? (ANN)
@@ -49,3 +71,8 @@ F. Neural Networks
 	5. Can we predict a country’s debt to GDP ratio using historic data? (LSTM)
 	6. How does the interplay between social development indices and debt management influence long-term economic stability?
         7. Can a neural network model forecast economic growth using historical economic data?
+	8. Can a neural network predict a country’s risk of missing carbon reduction targets based on past emissions and policy changes?
+	9. Can an LSTM-based model predict deforestation-related CO2 emissions using time-series data on land use and forest area loss?
+	10. How does the interplay between social development indices (electricity access, energy consumption) and CO2 emissions influence a country's long-term environmental sustainability?
+	11. Can a neural network model forecast CO2 emissions from transport and industrial sectors using historical fuel consumption patterns?
+	12. Can deep learning models predict forest area changes based on historical trends in CO2 flux from LULUCF, deforestation, and land-use policies?
