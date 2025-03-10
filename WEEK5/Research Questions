@@ -3,6 +3,9 @@ A. Time Series Analysis
 	2. Can historical debt levels be used to forecast future government spending trends?
 	3. How have domestic and external public sector debt levels evolved over time for different regions?
 	4. How do short-term and long-term public debt levels fluctuate over the years?
+        5. How do seasonal patterns in trade balances impact GDP growth across different regions?
+        6. Can time series models forecast inflation rates more accurately by incorporating fiscal policy changes?
+
 
 
 B. Hypothesis Testing 
@@ -10,27 +13,33 @@ B. Hypothesis Testing
 	2. Do countries with higher literacy rates have lower poverty rates? (Chi-Square Test)
 	3. Is life expectancy significantly higher in countries with greater access to clean water? (F-Test)
 	4. Is there a significant difference in domestic and external debt levels between high-income and low-income countries? (T-Test)
-	
+	5. Is there a significant difference in GDP growth between countries with high and low external debt? (T-Test)
+        6. Do countries with higher social spending exhibit better economic stability? (F-Test)
 
 C. Multiple Linear Regression (MLR) 
 	1. How do inflation rate, trade balance, and public debt impact GDP per capita growth?
 	2. What are the key predictors of foreign direct investment (FDI) inflows in developing economies?
 	3. How does domestic and external debt levels impact GDP growth?
 	4. Does a country’s GDP affect public debt levels?
-
+        5. How do debt servicing costs and exchange rates influence investment inflows?
+        6. What is the combined effect of healthcare expenditure, education spending, and income inequality on life expectancy across different income-level countries?
 
 D. Classification 
 	1. Can we classify countries into high-growth vs. low-growth economies based on GDP trends? (Logistic Regression)
 	2. Which countries are most likely to default on public debt based on economic indicators? (Random Forest)
 	3. Can debt-to-GDP ratios and employment growth be used to predict whether a country is a developed, emerging, or developing economy? (Decision Tree)
 	4. Can countries be classified into low, moderate and high-risk economies based on their debt?
+        5. Can machine learning models classify countries into resilient vs. vulnerable categories during financial crises based on debt and fiscal metrics? (Support Vector Machine)
+        6. Can we predict which countries are likely to experience a sovereign default based on a combination of political stability, trade balance, and debt-to-GDP ratio? (Random Forest)
+
 E. Clustering
 	1. Are there distinct clusters of countries based on economic growth, public debt levels, and trade balance? (K-Means Clustering)
 	2. Can clustering methods identify patterns of inflation and unemployment across different regions?
 	3. How do developed and developing countries cluster based on social indicators like literacy rate and life expectancy?
 	4. Do countries with similarities in their debt data form distinct groups? (domestic v external)
 	5. Are there regional patterns in debt levels?
-
+        6. Can clustering identify patterns in fiscal behavior and debt sustainability among low-income countries? (DBSCAN Clustering)
+        7. Can clustering identify groups of countries with similar responses to global financial shocks based on quarterly debt and trade data? (Hierarchical Clustering)
 
 F. Neural Networks
 	1. Can we predict GDP growth based on debt levels? (ANN)
@@ -38,5 +47,5 @@ F. Neural Networks
 	3. Can a neural network predict a country’s likelihood of falling into a financial crisis based on debt indicators?
 	4. How accurately can a neural network forecast employment growth based on past labor market trends?
 	5. Can we predict a country’s debt to GDP ratio using historic data? (LSTM)
-	
-
+	6. How does the interplay between social development indices and debt management influence long-term economic stability?
+        7. Can a neural network model forecast economic growth using historical economic data?
