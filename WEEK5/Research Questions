@@ -1,27 +1,42 @@
 A. Time Series Analysis
-	How do GDP per capita growth and employment rates change over time across different income-level countries?
-	Can historical debt levels be used to forecast future government spending trends?
+	1. How do GDP per capita growth and employment rates change over time across different income-level countries?
+	2. Can historical debt levels be used to forecast future government spending trends?
+	3. How have domestic and external public sector debt levels evolved over time for different regions?
+	4. How do short-term and long-term public debt levels fluctuate over the years?
+
 
 B. Hypothesis Testing 
-	Is there a significant difference in unemployment rates between high-debt and low-debt countries? (T-Test)
-	Do countries with higher literacy rates have lower poverty rates? (Chi-Square Test)
-	Is life expectancy significantly higher in countries with greater access to clean water? (F-Test)
+	1. Is there a significant difference in unemployment rates between high-debt and low-debt countries? (T-Test)
+	2. Do countries with higher literacy rates have lower poverty rates? (Chi-Square Test)
+	3. Is life expectancy significantly higher in countries with greater access to clean water? (F-Test)
+	4. Is there a significant difference in domestic and external debt levels between high-income and low-income countries? (T-Test)
+	
 
 C. Multiple Linear Regression (MLR) 
-	How do inflation rate, trade balance, and public debt impact GDP per capita growth?
-	What are the key predictors of foreign direct investment (FDI) inflows in developing economies?
+	1. How do inflation rate, trade balance, and public debt impact GDP per capita growth?
+	2. What are the key predictors of foreign direct investment (FDI) inflows in developing economies?
+	3. How does domestic and external debt levels impact GDP growth?
+	4. Does a country’s GDP affect public debt levels?
+
 
 D. Classification 
-	Can we classify countries into high-growth vs. low-growth economies based on GDP trends? (Logistic Regression)
-	Which countries are most likely to default on public debt based on economic indicators? (Random Forest)
-	Can debt-to-GDP ratios and employment growth be used to predict whether a country is a developed, emerging, or developing economy? (Decision Tree)
-
+	1. Can we classify countries into high-growth vs. low-growth economies based on GDP trends? (Logistic Regression)
+	2. Which countries are most likely to default on public debt based on economic indicators? (Random Forest)
+	3. Can debt-to-GDP ratios and employment growth be used to predict whether a country is a developed, emerging, or developing economy? (Decision Tree)
+	4. Can countries be classified into low, moderate and high-risk economies based on their debt?
 E. Clustering
-	Are there distinct clusters of countries based on economic growth, public debt levels, and trade balance? (K-Means Clustering)
-	Can clustering methods identify patterns of inflation and unemployment across different regions?
-	How do developed and developing countries cluster based on social indicators like literacy rate and life expectancy?
+	1. Are there distinct clusters of countries based on economic growth, public debt levels, and trade balance? (K-Means Clustering)
+	2. Can clustering methods identify patterns of inflation and unemployment across different regions?
+	3. How do developed and developing countries cluster based on social indicators like literacy rate and life expectancy?
+	4. Do countries with similarities in their debt data form distinct groups? (domestic v external)
+	5. Are there regional patterns in debt levels?
+
 
 F. Neural Networks
-	Can a neural network model predict GDP growth more accurately than a traditional regression model?
-	Can a neural network predict a country’s likelihood of falling into a financial crisis based on debt indicators?
-	How accurately can a neural network forecast employment growth based on past labor market trends?
+	1. Can we predict GDP growth based on debt levels? (ANN)
+	2. Can a neural network model predict GDP growth more accurately than a traditional regression model?
+	3. Can a neural network predict a country’s likelihood of falling into a financial crisis based on debt indicators?
+	4. How accurately can a neural network forecast employment growth based on past labor market trends?
+	5. Can we predict a country’s debt to GDP ratio using historic data? (LSTM)
+	
+
